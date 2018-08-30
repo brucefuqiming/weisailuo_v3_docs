@@ -19,6 +19,7 @@ require(['public/v1/api'], function(visallo) {
 
 For example, to add an item to the menu bar, use the [Menu bar extension point](./menubar/index.md):
 
+{% github_embed "https://github.com/visallo/doc-examples/blob/3b6ac03e/extension-menubar/src/main/resources/org/visallo/examples/menubar/plugin.js#L3-L16" %}{% endgithub_embed %}
 
 Visallo plugins can also define their own extension points. They do not need to be defined ahead of time, simply ask the registry for all registered extensions using a unique point name. [`registry.extensionsForPoint`](../../javascript/module-registry.html#.extensionsForPoint)
 
