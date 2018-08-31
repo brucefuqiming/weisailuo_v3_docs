@@ -30,7 +30,7 @@ registry.extensionsForPoint([extension point name]);
 
 It is good practice to define some documentation for your new extension point. Documenting provides a validation function, and a description shown in the admin panel under UI Extensions. Document the extension point prior to requesting `extensionsForPoint`. [`registry.documentExtensionPoint`](../../javascript/module-registry.html#.documentExtensionPoint)
 
-{% github_embed "https://github.com/visallo/visallo/blob/622e9f8a/web/war/src/main/webapp/js/menubar/menubar.js#L162-L171" %}{% endgithub_embed %}
+ "https://github.com/visallo/visallo/blob/622e9f8a/web/war/src/main/webapp/js/menubar/menubar.js#L162-L171" %}{% endgithub_embed %}
 
 <div class="alert alert-info">
 <p>If you call <code>documentExtensionPoint</code> before <code>extensionsForPoint</code> all the extensions returned are guaranteed to have passed validation.
